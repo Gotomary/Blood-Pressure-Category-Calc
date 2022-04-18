@@ -31,6 +31,7 @@ main {
 .inputs {
   display: flex;
   flex-direction: column;
+  background-color: #000000;
 }
 
 .upper,
@@ -42,6 +43,11 @@ main {
 .lower-text {
   display: flex;
   flex-direction: column;
+}
+
+hr {
+  width: 273px;
+  border: 2px solid #FFFFFF;
 }
 
 button {
