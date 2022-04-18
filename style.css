@@ -71,6 +71,14 @@ button {
   border-radius: 10px;
 }
 
+.text-output {
+  text-align: center;
+}
+
+.text-dark {
+  color: #000000;
+}
+
 footer {
   display: flex;
   flex-direction: column;
