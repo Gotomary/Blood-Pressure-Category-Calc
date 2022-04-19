@@ -8,9 +8,9 @@ function calculateBP() {
   if (stolic < 120 && diastolic < 80) {
     bpCategory.style.backgroundColor = "#169D00";
     bpCategory.style.color = "#FFFFFF";
-    bpCategory.innerHtml = (
+    bpCategory.innerHtml = 
       <p class="output-text text-light">Your blood pressure is NORMAL.</p>
-    );
+    ;
   } else if (stolic < 129 && diastolic < 80) {
     bpCategory.style.backgroundColor = "#00CF91";
     bpCategory.style.color = "#000000";
