@@ -93,6 +93,11 @@ button {
   margin-top: 23px;
 }
 
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .output {
   width: 100%;
 }
@@ -118,11 +123,35 @@ footer {
   flex-direction: column;
   align-items: center;
   color: #000000;
+  font-family: 'JetBrains Mono', monospace;
   padding-top: 10px;
+}
+
+footer > p {
+  margin: 0;
 }
 
 #i-github {
   text-decoration: none;
   cursor: pointer;
   color: #000000;
+}
+
+@media (min-width: 600px) {
+  .direction-text {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .direction-text {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .direction-text {
+    width: 400px;
+  }
 }
