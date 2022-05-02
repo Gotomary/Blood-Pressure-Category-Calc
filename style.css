@@ -63,6 +63,9 @@ main {
 }
 
 .input-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
   margin: auto;
 }
 
@@ -108,10 +111,12 @@ button:hover {
   border: 1px solid #ffffff;
   border-radius: 10px;
   margin: 12px auto;
+  padding: 5px;
 }
 
-.text-output {
+.output-text {
   text-align: center;
+  font-size: 32px;
 }
 
 .text-dark {
