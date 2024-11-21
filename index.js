@@ -61,7 +61,7 @@ function calculateBP() {
 
 function clear(){
   bpCategory.innerHTML = "";
-  bpCategory.style.backgroundColor = "#6f6f6f";
+  bpCategory.style.backgroundColor = "#80b3ff";
   stolic.value = "";
   diastolic.value = "";
 }
